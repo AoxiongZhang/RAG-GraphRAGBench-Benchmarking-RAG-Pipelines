@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# HuggingFace models (you do NOT want to commit this)
+hf_models/
+
+
+# Logs / checkpoints
+logs/
+checkpoints/
+*.log
+
+# Any large files
+*.pt
+*.bin
+*.pkl
+*.pickle
+*.h5
+*.npz
+

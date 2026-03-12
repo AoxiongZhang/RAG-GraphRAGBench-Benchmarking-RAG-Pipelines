@@ -1,0 +1,911 @@
+id,text,source,:LABEL
+0,"Extruder blob
+=============
+
+The blob (mass of plastic accumulated around the hotend) is one of the most scary-looking printing problems you might face with your 3D printer.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+1,"Removing it after it happens is quite tricky, though not impossible.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+2,We prepared a short video on how to remove an extruder blob.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+3,"The video features our Original Prusa MK3, but the same principles of heating the filament blob in order to soften it and carefully removing it with pliers apply to all our FDM printer models.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+4,1. Preheat the nozzle in the _LCD Menu -> Settings/Control -> Temperature -> Nozzle_.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+5,The temperature needs to be approximately 30°C higher than the temperature at which the blob has formed.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+6,"For example, if the blob is made of:
+   
+   * PLA: preheat to 250°C
+   * ABS/PETG: preheat to 280°C
+
+2.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+7,"If MINTEMP or Preheat error message appears on the LCD, it means the thermistor or the heater cable (respectively) is already broken.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+8,"In this case, your only option is to use a heat gun to heat the plastic.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+9,"Work very carefully, you don't want to melt the printed parts surrounding the hotend.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+10,"Clear the blob little by little.
+
+3.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+11,"After the hotend reaches the right temperature, leave it this way for at least 5 minutes.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+12,"_Turn the printer off before the next step, or you might cause an electrical short.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+13,"_
+
+4.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+14,Smaller blobs will start to fall off by themselves.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+15,"As for the bigger ones, use a pair of pliers to remove the now soft plastic mass from the hotend carefully.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+16,"Again, be very cautious around the leads coming from the hot end, in particular, the thermistor leads.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+17,5.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+18,"Once the big chunks of the amassed plastic are removed, use a small brass brush to get rid of what's left (as shown in the video above).",../data/mk4s_manuel/Extruder_blob.md,Sentence
+19,6.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+20,"In case you do not succeed, as well as in case the blob has damaged some of the extruder parts, you can find your spare parts here.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+21,"To see the spare parts section, you have to be logged into the account you used to purchase the printer.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+22,"How to prevent this problem from happening
+
+Unlike the Spaghetti monster issue, the blob issue often occurs early during the print.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+23,"In general, the blob forms if the first layer detaches from the print surface and sticks to the moving hot nozzle while it keeps extruding, causing the blob to grow.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+24,"In order to prevent this situation from happening, bear in mind these simple rules:
+
+*",../data/mk4s_manuel/Extruder_blob.md,Sentence
+25,Always make sure to clean the print surface before starting the print.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+26,See First layer issues for more details.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+27,* Take the time to adjust the first layer height at the beginning of the print.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+28,Make sure that the first layer is sticking properly to the entire print surface.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+29,* Check the print every now and then.,../data/mk4s_manuel/Extruder_blob.md,Sentence
+30,"If you observe any potential problem, pause the print and give yourself the time to solve it.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+31,"As a last resort, you can always stop the print, adjust the settings, and start again.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+32,"Silicone sock
+
+Consider installing a silicone sock.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+33,"This is available in our shop for MK4/S, MK3.9/S, and XL.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+34,"Although the component does not prevent extruder blobs, in case this occurs, it makes it easier to remove it.",../data/mk4s_manuel/Extruder_blob.md,Sentence
+35,"Preheat error
+=============
+
+The Preheat error message occurs when there is a problem with the preheat process before your print starts.",../data/mk4s_manuel/Preheat_error.md,Sentence
+36,"Therefore, there is something preventing the printer from heating up in proper time.",../data/mk4s_manuel/Preheat_error.md,Sentence
+37,Make sure to distinguish between the Preheat error and the Bed preheat error.,../data/mk4s_manuel/Preheat_error.md,Sentence
+38,*,../data/mk4s_manuel/Preheat_error.md,Sentence
+39,Preheat error - a problem with preheating the hotend.,../data/mk4s_manuel/Preheat_error.md,Sentence
+40,* Bed preheat error - a problem with preheating the heatbed.,../data/mk4s_manuel/Preheat_error.md,Sentence
+41,"Troubleshooting
+
+Preheat error
+
+1.",../data/mk4s_manuel/Preheat_error.md,Sentence
+42,"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",../data/mk4s_manuel/Preheat_error.md,Sentence
+43,2. Make sure the thermistor and heater are properly plugged into the electronics board.,../data/mk4s_manuel/Preheat_error.md,Sentence
+44,"You can doublecheck that by following these guides: Mini RAMBo electronics wiring (MK2S, MK2.5, MK2.5S) or Einsy RAMBo electronics wiring (MK3/MK3S/MK3S+).",../data/mk4s_manuel/Preheat_error.md,Sentence
+45,3. Check if the fuses are not blown.,../data/mk4s_manuel/Preheat_error.md,Sentence
+46,4. Make sure that your hotend assembly is correct.,../data/mk4s_manuel/Preheat_error.md,Sentence
+47,5.,../data/mk4s_manuel/Preheat_error.md,Sentence
+48,"If the issue persists, then there is something wrong with your printer's thermistor or heater.",../data/mk4s_manuel/Preheat_error.md,Sentence
+49,"In order to find out which one of these two is malfunctioning, perform the simple test described below.",../data/mk4s_manuel/Preheat_error.md,Sentence
+50,"Bed preheat error
+
+1.",../data/mk4s_manuel/Preheat_error.md,Sentence
+51,"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",../data/mk4s_manuel/Preheat_error.md,Sentence
+52,2. Make sure the heatbed thermistor is properly seated under the heated bed and secured with the golden Kapton tape.,../data/mk4s_manuel/Preheat_error.md,Sentence
+53,"If not, then simply put it back and make sure that the thermistor cable has some space for movement.",../data/mk4s_manuel/Preheat_error.md,Sentence
+54,3. Make sure that the thermistor and heatbed are correctly plugged into the electronics board.,../data/mk4s_manuel/Preheat_error.md,Sentence
+55,"You can doublecheck that by following these guides: Mini RAMBo electronics wiring (MK2S, MK2.5, MK2.5S) RAMBo electronics wiring (MK3/MK3S/MK3S+).",../data/mk4s_manuel/Preheat_error.md,Sentence
+56,4.  Check if the fuses are not blown.,../data/mk4s_manuel/Preheat_error.md,Sentence
+57,5.,../data/mk4s_manuel/Preheat_error.md,Sentence
+58,"If the issue persists, there is something wrong with your printer's thermistor or heater.",../data/mk4s_manuel/Preheat_error.md,Sentence
+59,"In order to find out which one of these two is malfunctioning, perform the simple test described below.",../data/mk4s_manuel/Preheat_error.md,Sentence
+60,"Testing the thermistor and heater
+
+It is not very common, but there is a chance that only the thermistor is defective.",../data/mk4s_manuel/Preheat_error.md,Sentence
+61,You can check it using the following test:,../data/mk4s_manuel/Preheat_error.md,Sentence
+62,1. Use a hairdryer to blow hot air at the heatbed or hotend.,../data/mk4s_manuel/Preheat_error.md,Sentence
+63,2.,../data/mk4s_manuel/Preheat_error.md,Sentence
+64,"In the meantime, check if there is any temperature change on the LCD screen.",../data/mk4s_manuel/Preheat_error.md,Sentence
+65,3.,../data/mk4s_manuel/Preheat_error.md,Sentence
+66,If there is a positive temperature change it means that the heatbed or hotend thermistor is working.,../data/mk4s_manuel/Preheat_error.md,Sentence
+67,Which means there is something wrong with the heater or heatbed.,../data/mk4s_manuel/Preheat_error.md,Sentence
+68,In both cases contact our support and they will provide assistance.,../data/mk4s_manuel/Preheat_error.md,Sentence
+69,4.,../data/mk4s_manuel/Preheat_error.md,Sentence
+70,"If there is no change at all, the hotend or heatbed thermistor is defective.",../data/mk4s_manuel/Preheat_error.md,Sentence
+71,"First layer issues
+==================
+
+This is by far the most common 3D printing problem, and probably the first one you may encounter.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+72,The first layer is the essential one because it is the base of the printed object.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+73,"Therefore, if it isn’t perfect, the chance of print failure increases.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+74,Many common 3D printing problems stem from a poor first layer.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+75,"There are a couple of things that can go wrong when printing your first layer, so let’s take a look at what can be done to avoid these problems.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+76,The print surface should be regularly maintained to achieve optimal printing quality and minimize the chance of failed prints.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+77,"It's an easy procedure, so let's take a look at our tips and recommendations.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+78,"How to prepare your print surface
+
+If you don't touch the print surface with your hands or dirty tools, then you don't have to clean it before every print.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+79,"Clean your tools the same way you would the bed, and you will be able to start your next print right away.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+80,"Isopropyl alcohol - smooth, satin, textured sheets
+
+To achieve the best adhesion of the print surface, it is vital to keep it clean.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+81,"The best option when printing with ABS, PLA, and many other materials is 90% Isopropyl alcohol, which can usually be sourced locally at drugstores or hardware stores.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+82,Denatured alcohol is also an option.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+83,We recommend always using 90% IPA.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+84,Solutions with lower percentages may contain unsuitable chemicals and oils.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+85,"PETG, ABS, ASA, XT, and CPH filaments are an exception - the adhesion may be too strong, and you can damage your Smooth PEI sheet.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+86,We recommend using a separating agent (e.g. a glue stick).,../data/mk4s_manuel/First_layer_issues.md,Sentence
+87,"For more information on how to print with these materials, check out our Material guides.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+88,"Dish soap and water
+
+If the adhesion seems to decrease over time even when using IPA, you can clean the steel sheet with a few drops of dish soap and warm water (not hot!).",../data/mk4s_manuel/First_layer_issues.md,Sentence
+89,"This should not be done often, and do not submerge the sheet completely in hot water, but it will dissolve some oils and sugars that gather over time and that IPA does not remove.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+90,Make sure to use only dish soap and dry the sheet well before using it.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+91,"Acetone
+
+PEI can lose its adhesive powers after a couple of hundred hours.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+92,"When you see models coming loose regularly, wipe the surface thoroughly with acetone to restore the adhesion.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+93,This should only be used in the smooth PEI sheet and only around once per month.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+94,Do not overuse acetone.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+95,Extended use makes PEI surface brittle.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+96,"Also, do not use acetone before printing with PETG.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+97,"Glue
+
+Glue is a great, easy-to-use tool to increase adhesion.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+98,It also creates a protective separation layer.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+99,No need for glue specially made for 3D printing.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+100,You can use a basic (PVA-based) glue stick.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+101,"From our experience, it is not needed when printing PLA, but may it be advisable when printing:
+
+* Polyamide (Nylon)
+* PETG
+*",../data/mk4s_manuel/First_layer_issues.md,Sentence
+102,"Polycarbonate (PC)
+* PET-based materials
+* ABS
+* ASA
+*",../data/mk4s_manuel/First_layer_issues.md,Sentence
+103,"Other more exotic materials
+* Flexible materials
+
+Other types of glue should not be used as a substitute.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+104,Don't put Superglue on your sheet!,../data/mk4s_manuel/First_layer_issues.md,Sentence
+105,"When removing prints with a large surface area, you may have to assist the process using a spatula.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+106,Be gentle when flexing the sheet and removing the print as the smooth PEI foil can tear.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+107,"Resurface it
+
+It can happen that you will leave some small marks on the print surface with your nozzle or tools.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+108,"Typically, they will be shinier than the rest of the pad.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+109,It does not affect functionality or adhesion.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+110,"However, if you want to have the same surface look on the whole print bed, you can resurface it.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+111,The easiest way is to take the hard side of a dry kitchen sponge and gently wipe the affected area in a circular motion a few times.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+112,Another option is to use fine-grit sandpaper (400-600) and lightly give the sheet a rub.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+113,Wipe over with IPA after doing so.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+114,| Smooth PEI sheet                    | *,../data/mk4s_manuel/First_layer_issues.md,Sentence
+115,"Isopropyl alcohol 90%+ (IPA) -best degreaser<br>* Warm water + few drops with  <br>  dish soap (in case IPA doesn’t  <br>  remove sugar residue on the  <br>  sheet)<br>* Acetone - once in a while to  <br>  rejuvenate the sheet | Use glue stick when printing FLEX, PETG, and other PET-based materials, as well as ABS and ASA.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+116,<br>IPA + PETG will cause the print to adhere very strongly to the sheet.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+117,Removing it could be extremely difficult.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+118,"|
+| ---------------------------------------",../data/mk4s_manuel/First_layer_issues.md,Sentence
+119,| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------,../data/mk4s_manuel/First_layer_issues.md,Sentence
+120,| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |,../data/mk4s_manuel/First_layer_issues.md,Sentence
+121,| Textured powder-coated<br>sheet | *,../data/mk4s_manuel/First_layer_issues.md,Sentence
+122,Isopropyl alcohol 90%+ (IPA) -<br>best degreaser                                                                                                                                                                                   | Never use acetone!,../data/mk4s_manuel/First_layer_issues.md,Sentence
+123,"|
+| Satin powder-coated sheet           | *",../data/mk4s_manuel/First_layer_issues.md,Sentence
+124,Isopropyl alcohol 90%+ (IPA) -<br>best degreaser                                                                                                                                                                                   | Never use acetone!,../data/mk4s_manuel/First_layer_issues.md,Sentence
+125,"|
+
+Special print sheets
+
+For print sheets that are NOT smooth, satin, or textured, the surface preparation procedure can differ from sheet to sheet.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+126,Follow the procedures outlined in their dedicated articles.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+127,"* Special PA Nylon steel sheet](http://help.prusa3d.com/article/special-pa-nylon-steel-sheet_341570)
+* PP steel sheet
+
+The nozzle is too close/far from the sheet (MK2/S, MK2.5/S, MK3/S/+, MK3.5/S)
+
+If the nozzle is too close to the printing bed, there won’t be enough room for the plastic to come out of the extruder.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+128,"By having the nozzle too close to the print surface, you will essentially block its opening, so that no plastic can be extruded.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+129,You can easily recognize this issue when the printer does not extrude plastic for the first layer or two.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+130,Use the Live Adjust Z function and First Layer Calibration (i3) options to tweak the height of the nozzle.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+131,You perform the calibration from _LCD Menu –> Calibration –> First layer calibration_.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+132,"For more information on this procedure, please see the dedicated article First Layer Calibration (i3).",../data/mk4s_manuel/First_layer_issues.md,Sentence
+133,"Speed and temperature
+
+Decrease the printing speed
+
+If the steps described above didn’t help, then try decreasing the printing speed.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+134,"The easiest way how to do it is by rotating the knob during the printing process, lowering the percentage.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+135,"Counterclockwise = decrease speed, Clockwise = increase speed.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+136,"We suggest decreasing the speed to about 75% for the first three layers, and then returning it to normal.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+137,"Use recommended printing temperatures
+
+Make sure to use the recommended nozzle and heatbed temperatures.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+138,"PrusaSlicer will configure them correctly based on the selected material, so you don’t need to adjust the temperatures manually on the printer itself.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+139,"If you are experimenting with new materials that don’t adhere well, you can try to increase the heatbed temperature by 5-10 °C.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+140,This way the plastic will stick a bit better.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+141,"A full or partial clog
+
+The extruder could be clogged.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+142,"This can happen either when excessive debris gets stuck inside the nozzle, when hot plastic is kept inside the extruder for too long, or when the thermal cooling for the extruder is not sufficient and the filament begins to soften outside of the desired melt zone.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+143,"Please see our dedicated article Clogged nozzle/hotend (MK3.5/S, MK3S+, MK2.5S).",../data/mk4s_manuel/First_layer_issues.md,Sentence
+144,"Uneven surface
+
+If your print surface is not flat and the alignment of the mesh does not help, to achieve a flat print surface, a temporary solution is to add a piece of paper under the uneven area of the steel sheet.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+145,"A more permanent solution would be to perform the firmware Bed Level Correction.
+
+Correctly placed sheet
+
+Before printing, make sure that you have the print plate properly installed, and that there are no leftovers from the previous print or a piece of loose filament that could affect the sheet position.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+146,"Also, make sure that the sheet is straight and not bent or damaged.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+147,"Brim
+
+Before you consider applying extra adhesion materials onto the bed, consider using the Brim option in PrusaSlicer, which increases the surface area of the first layer.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+148,See our dedicated article Skirt and Brim.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+149,"Expansion joints (CORE One, MK4/S, MK3.9/S, MK3.5/S)
+
+Having the expansion joints in the wrong orientation can cause an uneven first layer.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+150,Make sure that all of them have the full side facing the center of the carriage.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+151,"Nozzle conditions (CORE One, MK4/S, MK3.9/S)",../data/mk4s_manuel/First_layer_issues.md,Sentence
+152,The nozzle on the Nextruder has to be at the correct height.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+153,"If you are not sure if the height is correct, open the thumb screws on the side of the heatbreak, and push the nozzle up.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+154,"Tighten the thumb screws just by hand, do not use any tools.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+155,"If you have a Nozzle Adapter, check the installation again to make sure that the nozzle has not been lowered with the installation of the adapter.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+156,"Nozzle conditions (XL)
+
+On single-tool XL, after removing the x-carriage cover, hold the heater block (make sure that the nozzle is not heated!), and use the Torx TX8 key as shown in the picture to tighten the set screw.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+157,"Do not use extra force while tightening, it may damage the hotend tube.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+158,The nozzle must be approximately at a 35°-40° angle to avoid damaging the hotend cables.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+159,"On multi-tool XL, identify the tool that has the nozzle to be checked, and park it.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+160,"Hold the heater block (make sure that the nozzle is not heated!), and use the Torx TX8 key in the part shown in the picture to tighten the set screw.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+161,"Do not use extra force while tightening, it may damage the hotend tube.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+162,The nozzle must be approximately at a 35°-40° angle to avoid damaging the hotend cables.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+163,"LoadCell check (CORE One, MK4/S, MK3.9, XL)",../data/mk4s_manuel/First_layer_issues.md,Sentence
+164,"If the filament is loaded while the printer is doing the leveling at the start of a print, check if the extruder is not pulling the filament down by loosening the filament spool a little.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+165,"If you have the filament being fed by a PTFE tube, make sure that the tube is not short.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+166,"After the previous checks, go into the printer menu to _Control -> Calibrations & tests -> Loadcell test_, and make the LoadCell test per screen instructions.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+167,"Mechanical checks (XL)
+
+Core XY
+
+If your first layer is showing one side higher than the others on the Original Prusa XL, check the assembly of the Core for any loose screws which hold the Core to the four extrusions.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+168,"Also, use the torque indicator, available for printing in the XL printable parts page, in the _Others_ folder, to make sure the screws are tightened correctly.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+169,"Heatbed Tiles
+
+Check if any of the screws under each heatbed tiles are loose.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+170,You can refer to the heatbed tile replacement guide to access the parts and check them.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+171,"Z-axis bearing housing
+
+The Z-axis bearing housings are the end-stop for the Z-axis.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+172,It is important to have a small clearance between the Z-axis bearing housings and the heatbed frame when the printer is at the top position.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+173,"This way, during the mesh bed leveling and the autohome procedures, there can be an ideal amount of small contact between the nozzle and the print surface.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+174,Too small of a clearance can cause the Nozzle Cleaning Failed warning message to appear.,../data/mk4s_manuel/First_layer_issues.md,Sentence
+175,"In this case, in order to achieve the ideal clearance, slightly loosen the bolts holding the bearing housings in place.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+176,"If the warning message still appears, slightly loosen the mentioned bolts once again, keeping in mind to still have the Z-axis bearing housings reasonably tight and held in place.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+177,"Once you find an ideal tightness for the bolts that works and holds the Z-axis bearing housings in place, keep the change permanent.",../data/mk4s_manuel/First_layer_issues.md,Sentence
+178,"The Benchy hull line
+
+When printing the famous 3DBenchy test model, you may notice a horizontal line at the hull’s widest part.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+179,This is not a print defect but rather a feature of the model itself.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+180,The line represents the waterline of the boat.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+181,It is intentionally modeled into the 3D file.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+182,"Therefore, you do not need to troubleshoot your printer or slicer settings if you observe this line.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+183,"Layer shifting
+
+Layer shifting occurs when one layer is printed offset relative to the previous one.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+184,This results in the whole upper part of the print being shifted.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+185,It can happen in one or both axes.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+186,"Common causes
+
+- Loose or misaligned belts
+- Obstructions on the print bed
+- Stepper motor driver overheating
+- Printer frame or axis components not tightened properly
+
+Fixes
+
+- Check and tighten belts
+- Remove any obstructions
+- Improve cooling for the stepper drivers
+- Verify mechanical assembly and re-tighten screws if necessary
+
+SD cards and USB drives
+
+Sometimes print issues originate from corrupted or incompatible SD cards / USB drives.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+187,"Tips
+
+- Always format cards in FAT32 before using them with your printer.
+- Avoid cheap or unbranded cards; use quality brands.
+- If you experience random print failures, try another card or drive.
+- Safely eject cards from your computer to prevent corruption.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+188,"Extruder blob
+
+An extruder blob, also called a “blob of doom,” is a large accumulation of filament around the nozzle and hotend.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+189,It happens when a print detaches from the bed and sticks to the nozzle instead.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+190,"Prevention
+
+- Ensure proper first layer adhesion (clean bed, correct Z-offset).",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+191,"- Use adhesives like glue stick if needed.
+- Check filament path is not obstructed.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+192,"Fix
+
+- Carefully heat the nozzle to soften the blob.
+- Remove material with pliers or tweezers.",../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+193,- Inspect hotend for damage before resuming prints.,../data/mk4s_manuel/The_Benchy_hull_line.md,Sentence
+194,"Layer shifting
+==============
+
+Layer shifting is a printing issue that causes the layers of the printed object to shift from their intended positions.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+195,"It is usually associated with an abnormal movement of the X-axis and/or the Y-axis, leading the extruder head to be misaligned mid-printing.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+196,"In order to troubleshoot the issue correctly, it is crucial to recognize in which axis the layers shifted.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+197,See the three photos below demonstrating three different kinds of layer shifts.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+198,Troubleshooting is the same for both axes.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+199,Layer shifts are most often caused by the wrong tension of the belts or pulleys not being secure.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+200,"Prusa CORE One
+
+Check your printer’s power mode",../data/mk4s_manuel/Layer_shifting.md,Sentence
+201,Run the printer in normal mode rather than in the stealth mode.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+202,You can change the power mode in _LCD Menu -> Settings_.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+203,The stealth mode is perfect for small and simple objects.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+204,"For bigger or more complex prints, the normal mode is recommended.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+205,"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+206,"When testing the movements by hand, test both movements along the X and Y axes, and also along both diagonals.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+207,"While an inconsistency in X or Y axis movement is most likely related to the belt tension, an inconsistent diagonal movement is related to the motor that controls that diagonal, or the pulley attached to it.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+208,"To check and adjust the belt tension, follow the guidelines from the dedicated belt adjustment guide.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+209,"When adjusting the belt tension, do not lose alignment of the CoreXY.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+210,"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+211,The pulleys are positioned differently on each of the two XY motors.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+212,"Each motor pulley has two set screws, one of which has to be aligned with the flat part of the motor shaft.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+213,"Looking from the front of the printer: 
+
+* Left 
+  
+  *",../data/mk4s_manuel/Layer_shifting.md,Sentence
+214,The teeth for the belt are above the set screws.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+215,*,../data/mk4s_manuel/Layer_shifting.md,Sentence
+216,"Right
+  
+  *",../data/mk4s_manuel/Layer_shifting.md,Sentence
+217,The teeth for the belt are below the set screws.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+218,"Original Prusa MK-series
+
+Check your printer’s power mode",../data/mk4s_manuel/Layer_shifting.md,Sentence
+219,Run the printer in normal mode rather than in the stealth mode.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+220,You can change the power mode in _LCD Menu -> Settings._,../data/mk4s_manuel/Layer_shifting.md,Sentence
+221,The stealth mode is perfect for small and simple objects.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+222,"For bigger or more complex prints, the normal mode is recommended.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+223,"Also, note that in stealth mode, the Crash detection feature is not available.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+224,"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+225,"For example, there might be a piece of filament stuck around the belt (usually around the Y-axis pulley) from your previous prints.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+226,"Another instance of obstruction is when the zip ties, or other parts of the extruder cable bundle, are not optimally positioned as indicated in their respective assembly guide.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+227,If the cables hit the frame before the extruder assembly (MK3 and higher) or before the X end-stop (on MK2/S or MK2.5) the printer detects an inaccurate end position.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+228,See the photo below and make sure the cables are arranged accordingly.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+229,Verify if the smooth rods don't bear any deep scratches and if the bearings are properly lubricated.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+230,Clean the smooth rods with a clean paper towel before applying lubricant.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+231,The optimal lubricant is our Prusa Lubricant.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+232,"A lithium-based, general-purpose grease also works well.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+233,"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+234,"Both grub screws need to be tight, one of them has to be tightened against the flat part of the motor shaft.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+235,A loose or misaligned pulley is usually the main cause of staircase layer shifts.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+236,"Both pulleys on both axes also have to be aligned, meaning the motor pulley has to be well centered and the belt has to be moving in a straight line, not traveling from right to left while the pulley is turning.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+237,"Check the tension of your belts
+
+Check your belt tension.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+238,"On MK-series printers, a quick way to check it is using our belt tuner, with the instructions in the video below.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+239,"On MK3/S/+, it is possible to check the Belt Status numbers via _LCD Menu -> Support -> Belt Status_.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+240,"While there is not a precise ideal value, from our experience, the best approximate value is around 250 on the X-axis, and 275 on the Y-axis, with an optimal range at +-15 from these values on either axis.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+241,"The value does not represent a physical quantity, but an arbitrary number inversely proportional to the motor load.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+242,The values are with the consideration that the assembly is good and that the parts are in good condition and properly lubricated.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+243,Values may not be accurate if there are other problems.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+244,*,../data/mk4s_manuel/Layer_shifting.md,Sentence
+245,"If your value is under (or close to) 240, you need to loosen the belt
+*",../data/mk4s_manuel/Layer_shifting.md,Sentence
+246,"If your value is over (or close to) 290, you need to tighten the belt
+*",../data/mk4s_manuel/Layer_shifting.md,Sentence
+247,The values are updated every time you run the Selftest or run the belt test in _LCD menu -> Calibration -> Belt test_.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+248,Other MK-series models do not have the belt status option.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+249,The clue we can give you is that the belt should sound roughly like a low bass string when plucked.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+250,"It should be possible to pinch the two sides together with your thumb and index finger, but you should feel a little bit of resistance.
+
+!",../data/mk4s_manuel/Layer_shifting.md,Sentence
+251,The plastic parts holding the belts can get loose over time.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+252,Use the following technique to test if the pulley is correctly tightened and if the belt is not too loose.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+253,Hold the X-axis motor shaft with pliers (take advantage of the flat part of the shaft) and try to move with the extruder.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+254,The same procedure can be applied to test the Y-axis pulley and belt.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+255,"There should be no slack from the belt or any axis movement during the procedure, if there is, then the belt is too loose.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+256,"Original Prusa MINI/+
+
+Check your printer’s speed.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+257,"When printing large objects, it’s recommended to decrease the printing speed.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+258,"During a print, go to _LCD Menu -> Tune -> Speed_ and decrease the number.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+259,Check the X/Y belts.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+260,Make sure that belts are properly tightened.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+261,"A quick to check this aspect is using our belt tuner, with the instructions in the video below.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+262,Belts should be tight enough to sound like a low bass note when plucked.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+263,"If the belts are loose, tighten them first: first, loosen the two screws as depicted below.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+264,"Then, tighten the two screws at the very end of the X-axis.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+265,"They go directly against the metal rods, so the more tightened they are, the further you move the plastic part.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+266,"Once you are done, tighten the first two screws again to fix the part in place.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+267,Check X/Y axis pulleys.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+268,"Both pulleys on both axes also have to be aligned, meaning the motor pulley has to be well centered and the belt should be perfectly straight.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+269,Check whether the X-axis belt is not brushing against printed parts.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+270,Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,../data/mk4s_manuel/Layer_shifting.md,Sentence
+271,"Loose X/Y-axis belt pulley
+
+If the set-screw on the belt pulley has come loose or it was not secured on the flat side of the motor shaft, it can slip and may cause issues with the axis not moving perfectly in tandem with the motor's rotation.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+272,"The set-screw for the Y-axis is easily accessed, being under the bed, but the X-axis is a bit more tricky.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+273,You can access the set-screw for the X-axis through a hole on the top of the extruder (picture below).,../data/mk4s_manuel/Layer_shifting.md,Sentence
+274,"You will not be able to see if the set screw is aligned with the flat side of the motor-rod and tightening it will only be a temporary fix, but it is a great way of knowing if this is the issue and what needs to be disassembled.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+275,"If you only see shiny metal in the hole, you must rotate the motor to reveal the set-screw.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+276,"Even it is loose, it will move a little with the rotation of the motor, revealing the screw.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+277,"Access Settings -> Move Axis -> Move X, on the LCD-menu, and rotate the knob to spin the motor.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+278,"Free movement of the axis
+
+Make sure the print head (the part moving along the X-axis) can move freely in the entire range.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+279,Especially the cable bundle attached to the extruder should not prevent the print head from reaching the end of the axis.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+280,"Also, verify if the smooth rods are not scratched and if the bearings are properly lubricated.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+281,Clean the smooth rods with a clean paper towel before applying lubricant.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+282,The optimal lubricant is our Prusa Lubricant.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+283,"A lithium-based, general-purpose grease also works well.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+284,"Original Prusa XL
+
+Belt tension
+
+Using the guidelines in the dedicated article, check the belt tension.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+285,Ensure that the belt clamps are in good visible status.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+286,"To access them, remove the front cover and check the clamps for visual damage.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+287,"XY motor pulleys
+
+Though rare, if one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+288,The pulleys are positioned differently on each of the two XY motors.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+289,"* Left
+  *",../data/mk4s_manuel/Layer_shifting.md,Sentence
+290,Note the orientation of the pulley.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+291,The teeth for the belt are below the set screws.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+292,*,../data/mk4s_manuel/Layer_shifting.md,Sentence
+293,The pulley is 2.5mm higher than the start of the flat part of the motor shaft.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+294,Use the 2.5mm Allen key for reference.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+295,*,../data/mk4s_manuel/Layer_shifting.md,Sentence
+296,"Alternatively, measure the distance between the beginning of the motor shaft and the pulley, 3.6mm.
+*",../data/mk4s_manuel/Layer_shifting.md,Sentence
+297,Right,../data/mk4s_manuel/Layer_shifting.md,Sentence
+298,* Note the orientation of the pulley.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+299,The teeth for the belt are above the set screws.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+300,*,../data/mk4s_manuel/Layer_shifting.md,Sentence
+301,The pulley is flush with the top edge of the motor shaft.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+302,"Print geometry and settings
+
+Objects with overhangs are generally harder to print.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+303,"Some overhangs might even warp upwards during the print, and the nozzle might crash into them.",../data/mk4s_manuel/Layer_shifting.md,Sentence
+304,The same can happen in some cases if you choose a very small infill percentage when slicing the 3D model.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+305,"To prevent printing overhangs, you can cut the object (check out our article on the Cut tool).",../data/mk4s_manuel/Layer_shifting.md,Sentence
+306,You can also try to increase the print fan speed or increase the retraction length in PrusaSlicer.,../data/mk4s_manuel/Layer_shifting.md,Sentence
+307,Print fan speed is found in _Filament settings -> Cooling_ and retraction length in _Printer Settings -> Extruder 1._,../data/mk4s_manuel/Layer_shifting.md,Sentence
+308,"MINTEMP error and MINTEMP BED
+=============================
+
+The MINTEMP error (written sometimes as min temp) occurs when the temperature readout from the heatbed thermistor or hotend thermistor drops below a certain amount within a certain time frame.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+309,"It is a safety feature that prevents the printer from overheating in case of a faulty thermistor because, by default, the printer is set to balance out any heat loss by pumping more power into the heat bed or hotend heater cartridge.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+310,MK2/S & MK2.5/S,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+311,"Due to the hardware design of the MiniRAMBo and accounting for manufacturing tolerances, there is a temperature below which the thermistors are unable to read reliable values:
+
+- Hotend thermistor - temperatures below 22 °C (71.6 °F)
+
+- Heatbed thermistor - temperatures below 15 °C (59 °F)",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+312,"For safety reasons, the MINTEMP error is triggered in case the measured temperatures are below these limits.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+313,This is for the firmware to accurately detect a damaged or disconnected thermistor.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+314,"For a technical explanation of this limitation, please see this Github issue.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+315,"MK3 & MK3S & MK3S+
+
+The EinsyRambo board of the MK3/S/+ was allowed by its improved thermistor circuitry design to have a wider range of scale when it comes to temperature (thermistor) readings.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+316,It also has an onboard thermistor for ambient temperature.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+317,This has allowed the firmware to allow for a lower temperature threshold than on the previous generation (MiniRAMBo).,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+318,*,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+319,"Hotend thermistor - temperatures below 10 °C (50 °F)
+*",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+320,"Heatbed thermistor - temperatures below 10 °C (50 °F)
+
+Also, printing in very cold environments, outside of the recommended operational temperature, can have negative effects due to other factors than the printer's electronics, like material properties.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+321,What does it look like?,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+322,"When one of the thermistor cables is broken, it can be observed when the temperature on the LCD screen starts randomly jumping up and down during the Y-axis or X-axis movement.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+323,It is important to distinguish between the MINTEMP error and the MINTEMP BED error.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+324,"MINTEMP HOTEND/BED fixed
+
+If the cable regains a proper connection and a correct reading from the thermistor, the printer will update the error to ""MINTEMP fixed"" or ""MINTEMP fixed"", followed by ""Please restart"".",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+325,This does not mean the issue is permanently resolved.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+326,You should continue the troubleshooting described in this article.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+327,"Testing the thermistor
+
+You can also test it with a multimeter (our article Multimeter usage can guide you).",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+328,"If it fails to read the resistance on the metal inserts in the jumper connectors, then the wire is broken.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+329,"At room temperature, it should have a resistance you can expect resistance of 80 kΩ - 125 kΩ.
+
+RAMBo board connector
+
+That the RAMBo is the cause is highly unlikely, as the board would not pass the final testing that we do in our factory.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+330,"However, try switching the Hotend and Heatbed thermistors on the board (both have 3 pins), if the MINTEMP does not turn into MINTEMP BED or if the MINTEMP BED does not turn into MINTEMP, the electronics board connector is broken and a new board is needed.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+331,You should also notice the temperature reading on the LCD change.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+332,"To find the thermistor see Mini RAMBo electronics wiring (MK2S, MK2.5, MK2.5S) or Einsy RAMBo electronics wiring (MK3/MK3S/MK3S+), depending on your printer.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+333,Wiggle it!,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+334,"If you do not have a multimeter, a good way to test the cable of the thermistor is to simply wiggle it.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+335,"Pre-heat to PLA (215/60) and move the extruder or bed by hand, all the way to the end of each side.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+336,See if there is any great change in temperature-reading on the LCD (tens of degrees or zeroing out).,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+337,"Grab the textile sleeve and manipulate and wiggle it, again checking if there is any change in temperature.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+338,"If there is, it indicates a microfracture of the cable when the connection changes depending on orientation.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+339,You then need to replace the thermistor.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+340,"How to fix it
+
+Temperature
+
+Make sure the temperature of the room where you operate the printer is not below 20 ° C (happens easily if you keep the printer in a basement during winter).",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+341,"Also make sure the printer is not placed next to an opened window, air conditioning, or in a way of a breeze that might cause a sudden temperature fluctuation.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+342,"If the issue is only caused by the ambient temperature of the room, you can use a hairdryer on the bed / hotend until it reaches a temperature above 18C to initiate a print.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+343,"However, some materials, like ASA / ABS, may misbehave if printed in a cold ambient temperature without an enclosure.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+344,"Glitch
+
+As mentioned above, the error might have been triggered by a simple glitch.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+345,Try to reset your printer by pressing the X button under the knob and see if it will print afterward.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+346,"Thermistor connection
+
+Check if the thermistor is properly connected to the RAMBo board: there is a latch on the connector that needs to snap in place.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+347,"To find the thermistor see Mini RAMBo electronics wiring (MK2S, MK2.5, MK2.5S) or Einsy RAMBo electronics wiring (MK3/MK3S/MK3S+), depending on your printer.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+348,"Also, make sure the textile sleeve protection of the extruder cable bundle did not snap and that it is still protecting the cables, especially around the spot where they enter the electronics casing.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+349,"Hotend thermistor
+
+At the other end of the hotend thermistor cable, inspect the wire where it goes into the heater block.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+350,This point is fragile and can get damaged.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+351,"Heat bed thermistor
+
+As for the heat bed thermistor cable, make sure it is firmly attached to the underside of the heated bed with the golden Kapton tape.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+352,"If not, try to press it back on.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+353,"Make sure that the thermistor cable has some slack, as shown in the right picture below.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+354,It is also important that it is not being pinched by the printed cable cover when put together.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+355,This is so it won't be worn down by the movement of the bed.,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+356,Replacement,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+357,"In case there is visible damage on the cable, or if it behaves erratically, the thermistor must be replaced.",../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+358,You can follow our guides How to replace a heatbed thermistor (MK3S+/MK3S/MK2.5S/MK2S) or How to replace a hotend thermistor (MK2S).,../data/mk4s_manuel/MINTEMP_error_and_MINTEMP_BED.md,Sentence
+359,"Troubleshooting
+
+Stringing and oozing
+
+Stringing or oozing, also known as ""hairy prints"", is the name given for when small strings of filament are left on a printed model.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+360,This usually happens when the filament keeps flowing from the nozzle while the extruder is moving to another object.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+361,You can see this as a marginal line of filament left between the objects.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+362,This issue is caused by very high printing temperatures and/or using incorrect retraction settings.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+363,This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+364,"Stringing from material left on the nozzle
+
+If you print for a long time from a single type of filament, such as PET-G, the filament can create a thin layer in the nozzle.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+365,This can cause stringing as the strands of the filament stick to the surface of the print.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+366,"Therefore, thoroughly clean the nozzle before printing and make sure that any dirt or remnants of previous filaments are removed from the nozzle.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+367,We highly recommend using our official (factory default) preset settings in PrusaSlicer.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+368,"However, if you are printing with your own settings, make sure that you have the retraction settings configured correctly.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+369,"PrusaSlicer settings
+
+You should start by checking a parameter known as Retraction.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+370,What does retraction do?,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+371,"When the extruder has finished printing one section/object of your g-code, the filament is pulled back into the nozzle.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+372,Once the extruder moves to the next location the printing process continues – the filament is pushed back out and it starts extruding from the nozzle again.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+373,Retraction settings can be found in Printer Settings → Extruder 1.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+374,"Flexible filaments usually need longer retractions, because the material stretches while being pulled back to the nozzle.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+375,Flexible materials are a special case and can need a lot of tweaking and tuning.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+376,"Retraction settings
+
+- Retraction length: Amount that the filament is pulled back when a retraction is triggered.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+377,"On the MK2.5/S and MK3/S/+, the retraction length should be a maximum of 2 mm.
+-",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+378,"Due to the Bowden extruder, the retraction length of the Original Prusa MINI/MINI+ presets are much longer (default 3.2 mm).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+379,- Lift Z: Lifts the extruder during movement.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+380,Having this setting lower will improve stringing.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+381,Note that disabling this feature may cause the nozzle to hit the printed part.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+382,- Retraction speed: Extruder motor speed on retraction.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+383,"A higher value improves stringing, but if it is too high it may skip steps in the motor.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+384,- Minimum travel after retraction: Amount of move that will trigger a retraction (mm).,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+385,"The preset number in PrusaSlicer is 1 mm, which is a low amount.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+386,"Having this number higher will get lower printing times, but increase oozing and stringing.
+- Retract on layer change:",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+387,Activates retraction when the layer changes to the next one.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+388,It is recommended to leave this option on.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+389,- Wipe while retracting: Moves the nozzle (wipe) while the retraction is happening.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+390,"It is recommended to leave this option on.
+- Retract amount before wiping: This option does a quick retract before doing the wiping movement.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+391,More suitable for the Original Prusa MINI/MINI+.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+392,"Other settings that affect retraction
+
+- Only retract when crossing perimeters *(Print settings → Infill → Advanced)*: Disables retraction when the travel path does not exceed the upper layer's perimeter.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+393,Any oozing that happens will be within the walls and should be invisible.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+394,- Avoid crossing perimeters *(Print settings → Layers and perimeters → Quality)*: Optimize travel moves in order to minimize the crossing of perimeters.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+395,"This will lower the stringing amount, especially in the MINI/MINI+.
+- Sequential printing *(Print settings → Output options → Sequential printing)*: Printing each object individually has a smaller chance of causing stringing between the parts.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+396,"When using this feature, PrusaSlicer will warn you of any possibility of the extruder colliding with an already printed part, but follow the print closely.
+- Nozzle temperature *(Filament settings → Filament → Nozzle)*: Lowering the temperature decreases the occurrence of strings.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+397,Try decreasing the nozzle temperature by 5–10 °C and check whether there’s less stringing.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+398,"Filament
+
+Try using a different spool than the one that is causing the stringing.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+399,"The filament might have gathered moisture, which will cause a lot of stringing.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+400,"Hotend
+
+Stringing in the nozzle might be caused by a heat dissipation issue in the nozzle.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+401,Try re‑applying thermal paste on the threads between the heatbreak and the heatsink.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+402,"If you have recently changed any component in the hotend, it is also possible that some individual parts are not in place.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+403,Go over the assembly of the hotend and check for any parts that may be different from the instructions.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+404,"Enough settings, pass me my heat‑gun!",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+405,"If you don’t feel like tweaking any of the settings, well, then there is an alternative.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+406,You can get rid of the strings with a heat gun (or often with a lighter – but be very careful).,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+407,Set your heat‑gun to around 200 °C and aim at the strings for one or two seconds.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+408,"This will melt the strings, and the printed object should remain undamaged.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+409,"Do not leave the heat source on the printed model for longer than one or two seconds, as this may deform the part.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+410,"The Benchy hull line
+
+The 3DBenchy is a 3D model designed by CreativeTools specifically for testing and benchmarking 3D printers.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+411,"And everyone wants to know, how to print a perfect Benchy.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+412,"Ever since it’s release, one specific problem seems to be present, in varying degrees of severity, in all of its prints - the infamous Benchy hull line.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+413,"It’s visible on prints from all FFF printers on the market, cheap or expensive.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+414,It’s visible no matter the slicing software.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+415,It’s visible when printing from any material.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+416,It’s visible even in the Benchy release video from 2015.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+417,"Again, in varying degrees of severity - with some combinations of printer, slicer, and material, it can be almost invisible.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+418,"Other times, it’s clearly defined, leaving the user disappointed and confused.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+419,"But once you see it, you’ll be able to find it on essentially all of its prints.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+420,"The good news is that we managed to mostly eliminate the Benchy hull line in our sample G-codes (not in 100% cases though, more on that later).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+421,You can download the G-code here.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+422,The bad news is that the fix isn’t universal.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+423,And we’re not even sure if such universal fix is physically possible to exist.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+424,A hardware problem?,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+425,"When you search for the problem online, you’ll often get an (incorrect) suggestion, that it might be a hardware problem.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+426,"To give you an example, here are some of the suggestions we found online:
+
+- loose belts
+- bent Z-axis rods
+- irregularity in your z-axis lead screw at that height
+
+If the problem is one thicker line or two thin lines at height of the Benchy’s deck, it’s most likely not a hardware problem with your printer.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+427,"On the other hand, if you get uneven layers from top to bottom, it is most likely a hardware problem (which we’ll not discuss here).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+428,"The culprit
+
+We believe that the main culprit is the sudden transition from sparse infill into full top layers around the 8 mm height (may vary a bit depending on your layer height and number of top layers).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+429,"At this point, there is an abrupt difference in the time a layer takes to print.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+430,"And a few layers later, another sudden change happens.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+431,"When the deck is finished it’s no longer an almost solid layer, but just a few perimeters again.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+432,"Here are the factors that influence the severity of the Benchy hull line:
+
+- Filament material thermal expansion coefficient  
+- Print cooling  
+- Print environment  
+- Other filament properties — dryness, composition
+
+A seemingly similar, yet partly different problem is when printing boxes.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+433,They also tend to have a line at the height where the bottom solid layers transition into walls.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+434,"This has more to do with thin walls, extrusion width, and the material has nowhere to go, but outside.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+435,Our slicer team knows about this problem and it's something that will likely improve in the future.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+436,Why can’t the slicer automatically detect and correct for this?,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+437,It’s physics.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+438,"Plastics, if extruded first from pellets into a filament, and then from filament into a very thin rectangular extrusion, will behave neither as a liquid nor as a solid.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+439,"The stretching of the plastic will align the long molecular chains of the polymer, introducing internal stresses to the extrusion.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+440,This internal stress will pull the extrusion together if not cooled quickly enough.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+441,"For example, on the MK2 the 3D Benchy has the line more pronounced on the side away from the cooling fan.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+442,It depends on the environment too.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+443,"Indeed, as many of you found out, in a cool basement the effects are more pronounced.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+444,The same G-code printed on the same printer with the same filament can have a Benchy hull line in one room and not in the other.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+445,It’s very difficult to automatically compensate for that.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+446,And to compensate for the internal stresses and cooling effects of the filament.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+447,"One of the reasons being the viscoelastic behavior of the molten plastics, and the dependence of the plastic behavior on its composition, temperature, hydrolysis of the polymer molecular chains.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+448,"If the filament is not 100% dry (polyesters — PLA & PET are sensitive to hydrolysis, hydrolyzed filament contains shorter polymer chains, thus being less viscous), the effectivity of the cooling, reflections of the cooling air from the already printed objects, etc.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+449,"How did we modify the G-code to eliminate it?
+
+Something that helps, is to make a modifier mesh in the shape of the deck.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+450,"When aligned at the problematic spot, it can be used to split the hull and the deck.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+451,"They are then printed separately, plus the infill doesn’t fill the entire area all the way to the hull perimeters.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+452,Then there’s the order of elements inside a layer.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+453,"For some reason, we got better results when always printing the deck perimeters first, then infill of the deck and then the rest of the layer.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+454,We manually edited this order using a text editor.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+455,"We’re not sure if it ended up helping, but we also manually edited the G-code in order to slightly lower the flow of solid infill, except for the very top layer (of the deck).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+456,Another thing is to print the perimeters as continuously as possible.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+457,"Rather than printing perimeters, then infill and then transitioning to the next layer it’s better to print two (or more) layers of perimeters one right after another.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+458,"The printer then can go back and print the infill, again two layers at a time.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+459,We most likely haven’t discovered all factors and in precisely what ratios they influence the severity of the Benchy hull line.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+460,"Still, we wanted to share our findings.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+461,"If you make your own research and tests, let us know of your findings.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+462,"Layer shifting
+
+Layer shifting is a printing issue that causes the layers of the printed object to shift from their intended positions.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+463,"It is usually associated with an abnormal movement of the X-axis and/or the Y-axis, leading the extruder head to be misaligned mid-printing.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+464,"In order to troubleshoot the issue correctly, it is crucial to recognize in which axis the layers shifted.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+465,See the three photos below demonstrating three different kinds of layer shifts.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+466,Troubleshooting is the same for both axes.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+467,Layer shifts are most often caused by the wrong tension of the belts or pulleys not being secure.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+468,"Prusa CORE One
+
+Check your printer’s power mode",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+469,Run the printer in normal mode rather than in the stealth mode.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+470,You can change the power mode in _LCD Menu -> Settings_.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+471,The stealth mode is perfect for small and simple objects.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+472,"For bigger or more complex prints, the normal mode is recommended.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+473,"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+474,"When testing the movements by hand, test both movements along the X and Y axes, and also along both diagonals.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+475,"While an inconsistency in X or Y axis movement is most likely related to the belt tension, an inconsistent diagonal movement is related to the motor that controls that diagonal, or the pulley attached to it.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+476,"To check and adjust the belt tension, follow the guidelines from the dedicated belt adjustment guide When adjusting the belt tension, do not lose alignment of the CoreXY.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+477,"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+478,The pulleys are positioned differently on each of the two XY motors.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+479,"Each motor pulley has two set screws, one of which has to be aligned with the flat part of the motor shaft.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+480,"Looking from the front of the printer: 
+
+* Left 
+  
+  *",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+481,The teeth for the belt are above the set screws.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+482,*,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+483,"Right
+  
+  *",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+484,The teeth for the belt are below the set screws.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+485,"Original Prusa MK-series
+
+Check your printer’s power mode",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+486,Run the printer in normal mode rather than in the stealth mode.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+487,You can change the power mode in _LCD Menu -> Settings._,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+488,The stealth mode is perfect for small and simple objects.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+489,"For bigger or more complex prints, the normal mode is recommended.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+490,"Also, note that in stealth mode, the Crash detection feature is not available.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+491,"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+492,"For example, there might be a piece of filament stuck around the belt (usually around the Y-axis pulley) from your previous prints.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+493,"Another instance of obstruction is when the zip ties, or other parts of the extruder cable bundle, are not optimally positioned as indicated in their respective assembly guide.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+494,If the cables hit the frame before the extruder assembly (MK3 and higher) or before the X end-stop (on MK2/S or MK2.5) the printer detects an inaccurate end position.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+495,See the photo below and make sure the cables are arranged accordingly.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+496,Verify if the smooth rods don't bear any deep scratches and if the bearings are properly lubricated.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+497,Clean the smooth rods with a clean paper towel before applying lubricant.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+498,The optimal lubricant is our Prusa Lubricant.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+499,"A lithium-based, general-purpose grease also works well.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+500,"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+501,"Both grub screws need to be tight, one of them has to be tightened against the flat part of the motor shaft.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+502,A loose or misaligned pulley is usually the main cause of staircase layer shifts.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+503,"Both pulleys on both axes also have to be aligned, meaning the motor pulley has to be well centered and the belt has to be moving in a straight line, not traveling from right to left while the pulley is turning.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+504,"Check the tension of your belts
+
+Check your belt tension.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+505,"On MK-series printers, a quick way to check it is using our belt tuner, with the instructions in the video below.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+506,"On MK3/S/+, it is possible to check the Belt Status numbers via _LCD Menu -> Support -> Belt Status_.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+507,"While there is not a precise ideal value, from our experience, the best approximate value is around 250 on the X-axis, and 275 on the Y-axis, with an optimal range at +-15 from these values on either axis.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+508,"The value does not represent a physical quantity, but an arbitrary number inversely proportional to the motor load.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+509,The values are with the consideration that the assembly is good and that the parts are in good condition and properly lubricated.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+510,Values may not be accurate if there are other problems.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+511,*,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+512,"If your value is under (or close to) 240, you need to loosen the belt
+*",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+513,"If your value is over (or close to) 290, you need to tighten the belt
+*",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+514,The values are updated every time you run the Selftest or run the belt test in _LCD menu -> Calibration -> Belt test_.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+515,Other MK-series models do not have the belt status option.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+516,The clue we can give you is that the belt should sound roughly like a low bass string when plucked.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+517,"It should be possible to pinch the two sides together with your thumb and index finger, but you should feel a little bit of resistance.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+518,Use the following technique to test if the pulley is correctly tightened and if the belt is not too loose.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+519,Hold the X-axis motor shaft with pliers (take advantage of the flat part of the shaft) and try to move with the extruder.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+520,The same procedure can be applied to test the Y-axis pulley and belt.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+521,"There should be no slack from the belt or any axis movement during the procedure, if there is, then the belt is too loose.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+522,"Original Prusa MINI/+
+
+Check your printer’s speed.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+523,"When printing large objects, it’s recommended to decrease the printing speed.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+524,"During a print, go to _LCD Menu -> Tune -> Speed_ and decrease the number.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+525,Check the X/Y belts.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+526,Make sure that belts are properly tightened.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+527,"A quick to check this aspect is using our belt tuner, with the instructions in the video below.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+528,Belts should be tight enough to sound like a low bass note when plucked.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+529,"If the belts are loose, tighten them first: first, loosen the two screws as depicted below.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+530,"Then, tighten the two screws at the very end of the X-axis.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+531,"They go directly against the metal rods, so the more tightened they are, the further you move the plastic part.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+532,"Once you are done, tighten the first two screws again to fix the part in place.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+533,Check X/Y axis pulleys.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+534,"Both pulleys on both axes also have to be aligned, meaning the motor pulley has to be well centered and the belt should be perfectly straight.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+535,Check whether the X-axis belt is not brushing against printed parts.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+536,Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+537,"Loose X/Y-axis belt pulley
+
+If the set-screw on the belt pulley has come loose or it was not secured on the flat side of the motor shaft, it can slip and may cause issues with the axis not moving perfectly in tandem with the motor's rotation.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+538,"The set-screw for the Y-axis is easily accessed, being under the bed, but the X-axis is a bit more tricky.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+539,You can access the set-screw for the X-axis through a hole on the top of the extruder (picture below).,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+540,"You will not be able to see if the set screw is aligned with the flat side of the motor-rod and tightening it will only be a temporary fix, but it is a great way of knowing if this is the issue and what needs to be disassembled.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+541,"If you only see shiny metal in the hole, you must rotate the motor to reveal the set-screw.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+542,"Even it is loose, it will move a little with the rotation of the motor, revealing the screw.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+543,"Access _Settings -> Move Axis -> Move X_, on the LCD-menu, and rotate the knob to spin the motor.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+544,"Free movement of the axis
+
+Make sure the print head (the part moving along the X-axis) can move freely in the entire range.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+545,Especially the cable bundle attached to the extruder should not prevent the print head from reaching the end of the axis.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+546,"Also, verify if the smooth rods are not scratched and if the bearings are properly lubricated.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+547,Clean the smooth rods with a clean paper towel before applying lubricant.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+548,The optimal lubricant is our Prusa Lubricant.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+549,"A lithium-based, general-purpose grease also works well.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+550,"Original Prusa XL
+
+Belt tension
+
+Using the guidelines in the dedicated article, check the belt tension.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+551,Ensure that the belt clamps are in good visible status.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+552,"To access them, remove the front cover and check the clamps for visual damage.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+553,"XY motor pulleys
+
+Though rare, if one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+554,The pulleys are positioned differently on each of the two XY motors.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+555,"* Left
+  *",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+556,Note the orientation of the pulley.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+557,The teeth for the belt are below the set screws.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+558,*,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+559,The pulley is 2.5mm higher than the start of the flat part of the motor shaft.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+560,Use the 2.5mm Allen key for reference.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+561,*,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+562,"Alternatively, measure the distance between the beginning of the motor shaft and the pulley, 3.6mm.
+*",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+563,Right,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+564,* Note the orientation of the pulley.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+565,The teeth for the belt are above the set screws.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+566,*,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+567,The pulley is flush with the top edge of the motor shaft.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+568,"Print geometry and settings
+
+Objects with overhangs are generally harder to print.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+569,"Some overhangs might even warp upwards during the print, and the nozzle might crash into them.",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+570,The same can happen in some cases if you choose a very small infill percentage when slicing the 3D model.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+571,"To prevent printing overhangs, you can cut the object (check out our article on the Cut tool).",../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+572,You can also try to increase the print fan speed or increase the retraction length in PrusaSlicer.,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+573,Print fan speed is found in _Filament settings -> Cooling_ and retraction length in _Printer Settings -> Extruder 1._,../data/mk4s_manuel/stringing_and_oozing.md,Sentence
+574,"SD cards and USB drives
+=======================
+
+As there are ways of remotely transferring files and starting prints, an SD card or USB flash drive is the most common and reliable way to get your files to your machine.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+575,"Though common and convenient, flash memory is not the most reliable in itself and your storage can be corrupted or fill up without any obvious signs.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+576,"Therefore, we have put together a small guide on how to maintain, format, and purchase memory for your Original Prusa printer.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+577,Make sure your SD card is not locked!,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+578,The SD card has a latch on the side.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+579,"Before using your SD card, make sure that the latch is not set to the Locked position.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+580,"In case it is locked, you will not be able to save files on the card, and the printer will not be able to open the SD card.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+581,"Storage over 32 GB
+
+There is no upper size limit on compatible storage media, but the built-in Windows formatting tool does not support formatting storage media from a size of 32 GB or more to FAT32.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+582,"It will only provide the option for exFAT, which is currently not supported by our printers.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+583,"There are similar limitations under various versions of Apple's OSx, where a third-party application must be used to format it correctly.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+584,"To format such a drive you need a third-party application, like Rufus, FAT32 format, or EaseUS Partition Master.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+585,"Be careful when using such programs so you do not accidentally format the wrong storage media, like your hard drive.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+586,"However, 8-16 GB is more than enough for most use cases, as a G-code file rarely exceeds 100 MB.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+587,How do I format the USB drive/SD card?,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+588,"If your SD card or USB drive is full or if you can't read the content of the drive, but the drive is recognized by windows, most often all you need to do is to format the drive.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+589,"How to format on Windows
+
+On Windows, this is very simple.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+590,"Locate your USB drive or SD card in my computer, right-click, and choose format.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+591,A new small window will pop up.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+592,"Most of the time you can simply leave everything to default, but the most important thing is that the File System is set to FAT32.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+593,This and the Volume Label (Name of the drive) is the only thing you want to touch here.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+594,Click Start and your drive will be formatted in a matter of seconds.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+595,"If the USB stick will not work even after this procedure, it is either broken or its ""partitioning scheme"" is set as GPT, which is incorrect.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+596,It must be set as MBR (Master Boot Record).,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+597,"For how to change this, please see Microsoft's official documentation.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+598,"How to format on Mac
+
+On Mac, it is a few more steps, but still very accessible.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+599,"Again, you want to choose FAT32 as your file system, but you also have the option of changing the ""partitioning scheme"", which should always be MBR (Master Boot Record).",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+600,1.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+601,"Plug the USB drive or SD card into your Mac.
+2.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+602,Go to _Applications -> Utilities_ and launch _Disk Utility._,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+603,"3. Click on the icon in the top-left (green arrow) and select ""Show All Devices"" from the drop-down menu.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+604,4.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+605,"Right-click on the USB drive/SD card in the sidebar under ""External"".",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+606,_,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+607,"Select the top entry for your drive, not a partition located below.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+608,_,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+609,5.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+610,Select Erase in the Disk Utility-toolbar (purple arrow).,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+611,6. Enter a name for the formatted disk.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+612,7. Click on the Format menu and choose MS-DOS (FAT).,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+613,"8. Make sure the Scheme is set to ""Master Boot Record"".",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+614,"9. Click Erase.
+10.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+615,Your USB drive will now be erased and re-formatted correctly.,../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence
+616,"If your SD card is not detected by the printer at all, be sure to check out SD card not working for further information.",../data/mk4s_manuel/SD_cards_and_USB_drives.md,Sentence

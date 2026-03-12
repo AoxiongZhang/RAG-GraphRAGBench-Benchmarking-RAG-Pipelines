@@ -1,0 +1,225 @@
+:START_ID,:END_ID,:TYPE
+Make sure that the first layer is sticking properly to the entire print surface.,first layer,MENTIONS
+Make sure that the first layer is sticking properly to the entire print surface.,entire print surface,MENTIONS
+Make sure to distinguish between the Preheat error and the Bed preheat error.,preheat error,MENTIONS
+Make sure to distinguish between the Preheat error and the Bed preheat error.,error,MENTIONS
+"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",ambient temperature,MENTIONS
+"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",printer,MENTIONS
+"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",nearby air-conditioning unit,MENTIONS
+"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",open window,MENTIONS
+"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",ambient temperature,MENTIONS
+"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",printer,MENTIONS
+"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",nearby air-conditioning unit,MENTIONS
+"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",open window,MENTIONS
+Make sure to use only dish soap and dry the sheet well before using it.,only dish soap,MENTIONS
+Make sure to use only dish soap and dry the sheet well before using it.,sheet,MENTIONS
+Make sure that all of them have the full side facing the center of the carriage.,full side,MENTIONS
+Make sure that all of them have the full side facing the center of the carriage.,center,MENTIONS
+Make sure that all of them have the full side facing the center of the carriage.,carriage,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",xy axes movement,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",belt tension test movements,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",printer menu,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",lcd menu -> control,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",printer,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",hand,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",your x/y axis motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",pulleys,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",motor pulleys loosens,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",time,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",inconsistent movement,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",extruder,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",heatbed,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",no obstructions,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",path,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",extruder,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",your x/y axis motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulleys,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",x and y motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",motor mount,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",motor shaft,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",opposite end,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",tension,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",your belts,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",your belt tension,MENTIONS
+Check the X/Y belts.,x/y belts,MENTIONS
+Make sure that belts are properly tightened.,belts,MENTIONS
+Check X/Y axis pulleys.,x/y axis pulleys,MENTIONS
+Check whether the X-axis belt is not brushing against printed parts.,x-axis belt,MENTIONS
+Check whether the X-axis belt is not brushing against printed parts.,printed parts,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,movement,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,your axis,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,any obstructions,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,path,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,bearings,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,any possible waste,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,previous printings,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,belt,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,y-axis pulley,MENTIONS
+"Make sure that the thermistor cable has some slack, as shown in the right picture below.",thermistor cable,MENTIONS
+"Make sure that the thermistor cable has some slack, as shown in the right picture below.",some slack,MENTIONS
+"Make sure that the thermistor cable has some slack, as shown in the right picture below.",right picture,MENTIONS
+This issue is caused by very high printing temperatures and/or using incorrect retraction settings.,this issue,MENTIONS
+This issue is caused by very high printing temperatures and/or using incorrect retraction settings.,very high printing temperatures,MENTIONS
+This issue is caused by very high printing temperatures and/or using incorrect retraction settings.,incorrect retraction settings,MENTIONS
+This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,couple,MENTIONS
+This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,settings,MENTIONS
+This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,prusaslicer,MENTIONS
+This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,your hardware,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",xy axes movement,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",belt tension test movements,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",printer menu,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",lcd menu -> control,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",printer,MENTIONS
+"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",hand,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",your x/y axis motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",pulleys,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",motor pulleys loosens,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",time,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",inconsistent movement,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",extruder,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",heatbed,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",no obstructions,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",path,MENTIONS
+"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",extruder,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",your x/y axis motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulleys,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",x and y motors,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",motor mount,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",motor shaft,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",opposite end,MENTIONS
+"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",pulley,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",tension,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",your belts,MENTIONS
+"Check the tension of your belts
+
+Check your belt tension.",your belt tension,MENTIONS
+Check the X/Y belts.,x/y belts,MENTIONS
+Make sure that belts are properly tightened.,belts,MENTIONS
+Check X/Y axis pulleys.,x/y axis pulleys,MENTIONS
+Check whether the X-axis belt is not brushing against printed parts.,x-axis belt,MENTIONS
+Check whether the X-axis belt is not brushing against printed parts.,printed parts,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,movement,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,your axis,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,any obstructions,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,path,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,bearings,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,any possible waste,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,previous printings,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,belt,MENTIONS
+Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,y-axis pulley,MENTIONS
+Make sure your SD card is not locked!,your sd card,MENTIONS

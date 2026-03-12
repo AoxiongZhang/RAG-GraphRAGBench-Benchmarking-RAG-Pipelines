@@ -1,0 +1,51 @@
+id,text,type,source,:LABEL
+0,Make sure that the first layer is sticking properly to the entire print surface.,solution,,Sentence
+1,Make sure to distinguish between the Preheat error and the Bed preheat error.,solution,,Sentence
+2,"Make sure that the ambient temperature is stable and there is nothing cooling the printer down, such as a nearby air-conditioning unit or an open window.",solution,,Sentence
+3,"Make sure that the ambient temperature is stable and there is cooling down the printer, such as a nearby air-conditioning unit or an open window.",solution,,Sentence
+4,Make sure to use only dish soap and dry the sheet well before using it.,solution,,Sentence
+5,Make sure that all of them have the full side facing the center of the carriage.,solution,,Sentence
+6,"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",solution,,Sentence
+7,"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",solution,,Sentence
+8,"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",solution,,Sentence
+9,"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",solution,,Sentence
+10,"Check the tension of your belts
+
+Check your belt tension.",solution,,Sentence
+11,Check the X/Y belts.,solution,,Sentence
+12,Make sure that belts are properly tightened.,solution,,Sentence
+13,Check X/Y axis pulleys.,solution,,Sentence
+14,Check whether the X-axis belt is not brushing against printed parts.,solution,,Sentence
+15,Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,solution,,Sentence
+16,"Make sure that the thermistor cable has some slack, as shown in the right picture below.",solution,,Sentence
+17,This issue is caused by very high printing temperatures and/or using incorrect retraction settings.,cause,,Sentence
+18,This can be solved by changing a couple of settings in PrusaSlicer and checking your hardware.,fix,,Sentence
+19,"Check the XY axes movement and the belt tension
+
+Test movements both from the printer menu (_LCD Menu -> Control -> Move Axis_), and with the printer cold and off, by hand.",solution,,Sentence
+20,"Check your X/Y axis motors and pulleys
+
+If one of the motor pulleys loosens over time, it will misalign and contribute to inconsistent movement.",solution,,Sentence
+21,"Make sure the extruder and the heatbed can move freely
+
+Make sure there are no obstructions in the path of the extruder or heatbed and their bearings.",solution,,Sentence
+22,"Check your X/Y axis motors and pulleys
+
+Make sure the X and Y motors are tightened in the motor mount, that the pulley is secured on the motor shaft and aligned with the pulley on the opposite end, and that the pulley can move freely.",solution,,Sentence
+23,"Check the tension of your belts
+
+Check your belt tension.",solution,,Sentence
+24,Check the X/Y belts.,solution,,Sentence
+25,Make sure that belts are properly tightened.,solution,,Sentence
+26,Check X/Y axis pulleys.,solution,,Sentence
+27,Check whether the X-axis belt is not brushing against printed parts.,solution,,Sentence
+28,Make sure nothing is blocking the movement of your axis – Check for any obstructions in the path of the bearings or any possible waste from previous printings stuck around the belt (usually around the Y-axis pulley).,solution,,Sentence
+29,Make sure your SD card is not locked!,solution,,Sentence

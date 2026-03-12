@@ -1,0 +1,60 @@
+name,:LABEL
+ambient temperature,Entity
+any obstructions,Entity
+any possible waste,Entity
+bearings,Entity
+belt,Entity
+belt tension test movements,Entity
+belts,Entity
+carriage,Entity
+center,Entity
+couple,Entity
+entire print surface,Entity
+error,Entity
+extruder,Entity
+first layer,Entity
+full side,Entity
+hand,Entity
+heatbed,Entity
+inconsistent movement,Entity
+incorrect retraction settings,Entity
+lcd menu -> control,Entity
+motor mount,Entity
+motor pulleys loosens,Entity
+motor shaft,Entity
+movement,Entity
+nearby air-conditioning unit,Entity
+no obstructions,Entity
+only dish soap,Entity
+open window,Entity
+opposite end,Entity
+path,Entity
+preheat error,Entity
+previous printings,Entity
+printed parts,Entity
+printer,Entity
+printer menu,Entity
+prusaslicer,Entity
+pulley,Entity
+pulleys,Entity
+right picture,Entity
+settings,Entity
+sheet,Entity
+some slack,Entity
+tension,Entity
+thermistor cable,Entity
+this issue,Entity
+time,Entity
+very high printing temperatures,Entity
+x and y motors,Entity
+x-axis belt,Entity
+x/y axis pulleys,Entity
+x/y belts,Entity
+xy axes movement,Entity
+y-axis pulley,Entity
+your axis,Entity
+your belt tension,Entity
+your belts,Entity
+your hardware,Entity
+your sd card,Entity
+your x/y axis motors,Entity

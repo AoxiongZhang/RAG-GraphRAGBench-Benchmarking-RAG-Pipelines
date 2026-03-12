@@ -1,0 +1,163 @@
+,user_input,reference,context,answer
+0,What is the use of search option in tne smart hub?,"The search option in Smart Hub allows users to search the Internet, install and use various apps, view photos and videos, listen to music stored on external storage devices, and perform more functions.",,
+1,Can I select Sound Feedback?,"Based on the provided context, there is no mention of being able to select ""Sound Feedback"" as a specific option. The sound settings mentioned include selecting a sound mode suitable for content type or listening environment, such as Standard, Optimized, or Amplify. There is also mention of adjusting expert settings, but Sound Feedback is not explicitly noted as an option.",,
+2,What do I do if the channel is not found?,"If the channel is not found, you should try scanning for available channels by selecting the option ""Settings"" then ""Broadcasting"" then ""Auto Program"" on your TV. Make sure not to use this function if your TV is connected to a cable box or satellite box. Auto Program will delete the existing channel list and save the newly scanned channels.",,
+3,Can I set the current time on the TV?,"Yes, you can set the current time on the TV either manually or automatically.",,
+4,What are the steps to connect my mobile device to the TV?,"1. Start the SmartThings app on your mobile device.
+2. Tap Add Device on the dashboard of the SmartThings app.
+3. Connectable TVs will be searched for.
+4. Select the model of your TV from the search results.
+5. Enter the PIN number displayed on the TV screen.
+6. Once the TV is registered with your Samsung account, you can use the SmartThings app to control the TV.",,
+5,How do I get better audio quality. What are the connections guidelines for it?,"To get better audio quality, it is recommended to use an AV receiver when connecting audio devices. When connecting an external audio device using an optical cable, ensure that you turn on the external audio device before connecting the optical cable. By doing so, the Sound Output setting will be automatically changed to the connected device. Additionally, you can manually change the Sound Output setting by using the Quick Settings screen or the Settings screen to select Audio Out/Optical on the Sound Output menu. If you encounter unusual noises coming from a connected audio device, it may indicate a problem with the audio device itself, and you should seek assistance from the manufacturer. Additionally, digital audio is only available with 5.1 channel broadcasts.",,
+6,How do I update TV’s software through Internet?,"To update the TV's software through the Internet, you need to go to Settings, then Support, then Software Update, and finally select Update Now or Try Now. This process requires an active Internet connection for the TV to download and apply the software update automatically.",,
+7,How do I enable audio for video description function?,"To enable audio for the video description function, you need to follow these steps:
+
+1. Press and hold the VOL button on the remote to bring up the Accessibility Shortcuts menu.
+2. Use the up or down directional buttons on the remote to highlight the Video Description option.
+3. Press the Select button on the remote to turn Video Description on or off.
+4. Close the menu either by pressing on the remote or by highlighting Close with the right directional button and then pressing the Select button.
+
+By following these steps, you can activate the audio guide that provides an audio description of video scenes for the visually impaired.",,
+8,I want to update the TV automatically. How can I do that ?,"To update the TV automatically, ensure that the TV is connected to the Internet. Then, go to Settings, navigate to Support, select Software Update, and then choose Auto Update. If Auto Update is not already enabled, you can use the Select button to turn it on. Once enabled, the TV's software will update itself automatically in the background while you are watching TV. The update will be applied the next time the TV is turned on. Just make sure to agree to the Smart Hub terms and conditions for Auto Update to work.",,
+9,What are the precautions for bixby?,"1. The supported voice interaction languages and features may differ depending on the geographical area.
+2. Bixby is available only when the TV is connected to the Internet.
+3. The existing functional specifications may be changed if Bixby is updated.
+4. Bixby is available only on TVs that support it and come with remote controls that have a microphone.
+5. Symbols including and special characters are not supported, so if a word or sentence contains numeric values or symbols, the function may not operate properly.
+6. Searched results may not provide complete results, and you may be required to pay for some apps.
+7. To use the voice text input function and Smart Search function, you must consent to provisions allowing third parties to collect and use your voice data.
+8. To use the Bixby function, you must agree to Smart Hub's Terms of Use, agree to a guidance regarding the collection and use of personal information for the Smart Hub service, and consent to the collection and use of personal information for the voice interaction-based service.
+9. The voice interaction rate differs with the volume/tone, pronunciation, and ambient sound environment (TV sound and ambient noise). The optimal volume for voice commands is between 75 dB and 80 dB.",,
+10,I want to know about settings option in smart hub. What is it?,"The settings option in Smart Hub allows you to view the entire text of the Terms & Policy document, cancel the Smart Hub service agreement, and perform a self-diagnosis and reset of Smart Hub settings. This option can be accessed by navigating to Settings Support.",,
+11,Explain the procedure to adjust HDMI black level?,"To adjust the HDMI black level, you need to go to the TV settings and access the General External Device Manager. From there, select HDMI Black Level. Make sure the input signal connected to the TV via an HDMI connector is set to RGB444 for this function to be available. Adjust the black level using the HDMI Black Level function to compensate for low black levels, low contrast, or dull colors generated by external devices connected to the TV via an HDMI cable.",,
+12,What is picture mode?,"Picture mode is a feature that allows users to select different settings for their TV's picture quality in order to provide the best viewing experience. This can include options such as Dynamic, Standard, Natural, and Movie modes, each with their own specific adjustments for brightness, color, and contrast.",,
+13,How do I configure Color Space Settings?,"To configure Color Space Settings, go to Settings > Picture > Expert Settings > Color Space Settings.",,
+14,How can I schedule any program?,"To schedule any program, you can follow these steps:
+
+1. On the Guide screen, select the program you would like to view.
+2. Press and hold the Select button.
+3. Select ""Schedule Viewing"" in the pop-up menu that appears.
+4. You can also schedule a program by pressing the Select button while watching TV, selecting the program in the Program Info window, and choosing ""Schedule Viewing.""
+5. Finally, you can use the Live TV Schedule Manager to add a viewing by setting the values for Antenna Channel, Repeat Date, and Start Time of the program you want to watch, then saving the schedule.",,
+15,How to surf internet on my TV?,"To surf the internet on your TV, you first need to connect to the internet network. You can do this by establishing either a wired or wireless internet connection. If connecting wired, use a CAT 7 (*STP type) cable and ensure your network speed is above 10 Mbps. If connecting wirelessly, make sure you have your wireless router's SSID and password settings, then follow the on-screen directions. After connecting to the internet, you can access the internet function on your TV and view recently viewed websites or featured recommendations. You can select a desired website for immediate access, scroll web pages using the Directional Pad, and enhance your experience by connecting a keyboard and mouse.",,
+16,I am not getting full display picture. How do I do that?,"To ensure you are getting a full display picture on your TV screen, you can try adjusting the Picture Size settings. Navigate to Settings, then Picture, and then Picture Size. From there, you can choose between options such as 16:9, Standard, Custom, and 4:3. Make sure to avoid watching your TV in 4:3 mode for extended periods to prevent damage to the screen. Keep in mind that supported picture sizes can differ depending on the input signal. Additionally, there is a function called ""Fit to Screen"" that may help fit the picture to the screen, but note that this function may not be supported depending on the Picture Size setting or broadcast signals.",,
+17,How do I open the accessibility Shortcuts menu?,"To open the Accessibility Shortcuts menu, you need to press and hold the Volume button on the Samsung Smart Remote for 1 second or more. The Volume button is located slightly below the middle of the remote.",,
+18,How do I select and view channels from favorite list only ?,"To select and view channels from a favorite list only, you need to press the right directional button on your remote control while in the Live TV Channel List. Then, you can select the desired list among the five favorites lists on the screen. The channels in the selected favorites list will appear. Only favorites lists that contain registered channels will display channels.",,
+19,Where do I find Guide Screen option?,"To find the Guide Screen option, you need to access the Accessibility Shortcuts menu by pressing and holding the VOL button on the remote. Then, use the up or down directional buttons on the remote to move to and highlight the Learn Menu Screen option. Press the Select button on the remote to enter and learn about the TV menu.",,
+20,How do I use virtual numeric pad?,"Based on the provided context, there is no specific mention of a virtual numeric pad. However, if your TV has a virtual keyboard, you may be able to access a virtual numeric pad within that keyboard interface. Typically, the virtual keyboard may include numbers along with alphabets, and you can switch between alpha-numeric characters using the directional keys on the remote control. If the virtual numeric pad is available, it should be accessible on the virtual keyboard screen by selecting the appropriate options.",,
+21,What is the function of 'Learn Menu Screen'?,The function of 'Learn Menu Screen' is to help individuals learn the menus on the TV screen by enabling the TV to tell them the structure and features of the menus they select.,,
+22,Where do I find e-Manual?,"You can find the e-Manual on your TV by pressing the E-MANUAL button on the standard remote control to open the menu. Alternatively, you can press the button to open Smart Hub, then navigate to Settings, Support, and select Open e-Manual to access the e-Manual.",,
+23,My TV screen automatically became black screen. How ?,"Your TV screen automatically became a black screen due to the Ambient Mode feature. This feature adjusts the brightness and appearance of the screen based on the surroundings. If the surroundings become dark or if there is no external operation, the TV will go into a black screen state, which is a soft-off mode. The screen will return to the Ambient Mode when the surroundings become bright again.",,
+24,Can I select an external device connected to the TV?,"Yes, you can select an external device connected to the TV by using the Source screen and pointing the TV's remote control at the device. This will allow you to control and switch to the output of the selected external device.",,
+25,How do I do factory reset?,"To do a factory reset on your TV, go to the Settings menu and look for the option to reset the TV to the factory defaults. Select the reset option and enter your security PIN when prompted. Then, the TV will turn off and on again automatically, displaying the Start Setup screen. For more detailed instructions, refer to the user manual that came with your TV.",,
+26,Can I select Standard sound mode?,"Based on the provided information, yes, you can select the Standard sound mode.",,
+27,How do I edit channels?,"To edit channels, you can access the Edit Channels screen on your TV. From there, you can select a channel to either delete it or restore it. Additionally, you can edit your Favorites List by selecting Favorites and then navigating to the Edit Favorites screen.",,
+28,Can I change the menu language option?,"Based on the provided context, it is mentioned that the Voice Guide function is provided in the language specified on the Language screen. However, it also states that some languages may not be supported by the Voice Guide even though they are listed in the Language screen. It is also mentioned that English is always supported. Therefore, the ability to change the menu language option may be limited to the languages supported by the Voice Guide function.",,
+29,How can I check app details?,"To check app details, you need to select the app you want to check, then choose ""View Details."" This will bring up the app information screen where you can find details about the app.",,
+30,I want to change the auto brightness setting. How can I do that?,"To change the auto brightness setting, you can go to the Ambient Mode state on your TV. In this state, you can set up and enjoy visual information and design, while less power is consumed and brightness is automatically adjusted by the illuminance sensor. To adjust the auto brightness setting, you can refer to the Ambient Mode settings on your TV.",,
+31,Explain the steps how to do Schedule Recording from the guide screen?,"To do Schedule Recording from the guide screen, follow these steps:
+
+1. Open the program guide on your TV.
+2. Move to the program you want to schedule for recording.
+3. Press the Select button on your remote control while on the program to see a pop-up menu.
+4. Use the up and down directional buttons to navigate the menu.
+5. Move to the ""Schedule Recording"" option in the menu.
+6. Press the Select button to choose the ""Schedule Recording"" option.
+7. You will hear a message confirming that the program has been set to record, and an icon will visually appear next to the program title indicating it is scheduled for recording.
+8. You will then be returned to the program guide with the scheduled recording set up.
+9. To find out if a program is set to record or to cancel a scheduled recording, press the Select button on the program. If the program is already set to record, you will see the option to ""Cancel Scheduled Recording"" in the menu. Press Select to cancel the scheduled recording, or simply press the button to go back to the program guide without cancelling the recording.",,
+32,How can I record my scheduled program?,"To record your scheduled program, you can follow the steps below:
+
+1. Open the program guide and move to the program you want to record.
+2. Press the Select button and select ""Schedule Recording"" from the pop-up menu.
+3. A message will confirm that the program has been set to record, and an icon will be displayed next to the program title.
+4. The program will be recorded at the scheduled time.",,
+33,How do I fix Weak or No Signal issue?,"To fix the Weak or No Signal issue, you can try the following steps:
+1. Check the digital channel signal info and strength in the TV settings.
+2. If your TV is attached to a separate over-the-air antenna, adjust the antenna for increased signal strength.
+3. Select high definition (HD) channels or programs to improve picture quality.
+4. Ensure that all cables are securely connected and that your antenna is positioned correctly.
+5. Confirm that there are no obstacles blocking the signal to the TV.",,
+34,How do I reset sound settings?,"To reset sound settings, you can go to the Sound section in the TV settings and look for an option that allows you to reset sound settings back to their default settings. This can be found under the Sound Support Functions or Expert Settings menu. It should be an option similar to ""Reset Sound"" or ""Initialize Sound Settings."" By selecting this option, you will reset the sound settings of your TV to the default settings.",,
+35,From where I can select beautiful screens?,You can select beautiful screens from the Ambient Mode by pressing the button.,,
+36,What can I do if I am getting distorted picture on TV?,"If you are getting a distorted picture on your TV, you can try the following steps:
+
+- Check the video input connectors to ensure they are connected to the correct external device video output connectors.
+- Confirm that the Pb, Pr, and Y jacks are plugged into their proper connectors if the TV is connected to an external device via a component cable.
+- Adjust settings such as Contrast, Brightness, Sharpness, Color, and Tint in the Picture Expert Settings menu.
+- Use the Auto Motion Plus function to resolve ghosting or blurring on the screen.
+- Upgrade to a digital cable box or satellite box if you have an analog cable box or satellite box.
+- Use HDMI or Component cables to deliver HD picture quality.
+- Adjust the cable box or satellite box's video output resolution to 1080i or 720p.
+- Ensure that mobile phones are not used close to the TV to prevent noise on analog and digital channels.
+- Check for correct and secure Component cable connections to avoid color problems or a blank screen.",,
+37,Can I do Sound Mirroring?,"Yes, you can do Sound Mirroring using the SmartThings app. Sound Mirroring allows you to share your mobile device's sound using your TV speakers. However, this function may not be supported depending on the specific TV model or mobile device being used.",,
+38,How to use the sleep timer and turn off the TV using the off timer?,"To use the sleep timer, go to Settings > General > System Manager > Time > Sleep Timer. You can set the sleep timer for up to 180 minutes after which it will automatically turn off the TV. To turn off the TV using the off timer, go to Settings > General > System Manager > Time > Off Timer. Set the Off Timer to shut off the TV automatically at a specific time. The Off Timer is only available if the Clock has been set.",,
+39,How do I configure RGB Only Mode and Color Space Settings?,"To configure RGB Only Mode and Color Space Settings, you would need to access the advanced picture settings on your device. In the settings menu, look for the options for Expert Settings or Picture Expert Settings. Within these settings, you should see the option to configure RGB Only Mode and Color Space Settings. Use the ""Try Now"" function next to RGB Only Mode and Color Space Settings to adjust and customize these specific picture settings to your preferences.",,
+40,What is Default / CC1 ~ CC4/ Text1 ~ Text4 and Default / Service1 ~ Service6 / CC1 ~ CC4 / Text1 ~ Text4?,"Default / CC1 ~ CC4/ Text1 ~ Text4 and Default / Service1 ~ Service6 / CC1 ~ CC4 / Text1 ~ Text4 refer to the different caption modes available on the TV. CC1 ~ CC4 and Text1 ~ Text4 are for analog channels, while Service1 ~ Service6 and CC1 ~ CC4 / Text1 ~ Text4 are for digital channels. These modes allow users to customize caption settings such as font color, background color, size, etc.",,
+41,Why my screen getting darker and also sometimes in state of black screen?,"Your screen is getting darker in Ambient Mode when the surroundings get dark, as the TV screen changes automatically according to the lighting conditions. Additionally, your screen may go into a black screen state in Ambient Mode when the surroundings reach a specific level of darkness or if there is no external operation. This is a functionality of the TV to save power and provide a more comfortable viewing experience based on the environment.",,
+42,How do I invert the screen colors?,"To invert the screen colors on your TV, go to Settings, then General, Accessibility, and finally Color Inversion. Once there, select ""Try Now"" to invert the colors of the text and background displayed on the TV screen. The function may not be supported depending on the model or geographical area.",,
+43,What is connection guide?,"The connection guide is detailed information about external devices that can be connected to the TV. It shows how to connect various external devices such as set-top boxes, game consoles, and PCs using pictures. If you select the connection method and an external device, the connection details appear.",,
+44,Can I configure the IPv6 connection settings?,"Based on the provided context, it is mentioned that IPv6 connection settings can be configured in the network settings. However, it is also noted that this function may not be supported depending on the model or geographical area. Therefore, it is possible to configure IPv6 connection settings if the function is supported by your device.",,
+45,Can I turn off the TV using off timer?,"Yes, you can turn off the TV using the Off Timer.",,
+46,How to set Daylight Saving Time (DST)?,"To set Daylight Saving Time (DST), you need to access the Settings, then go to General > System Manager > Time. Ensure the Clock Mode is set to Auto. Then, select the option for DST which will automatically adjust for Daylight Saving Time. This function is only available when the Clock Mode is set to Auto.",,
+47,How to sign out of Samsung account?,"To sign out of your Samsung account, move the focus to your account at Settings General System Manager Samsung Account, and then press the Select button. Or move to My Account Settings General System Manager Samsung Account My Account, and then select Sign Out.",,
+48,Please provide some instructions on how to schedule program and also can you please explain how to schedule recording??,"To schedule a program, follow these instructions:
+1. On the Guide screen, select a program you would like to view.
+2. Press and hold the Select button.
+3. From the pop-up menu that appears, select ""Schedule Viewing.""
+
+To schedule recording, follow these instructions:
+1. On the Guide screen, select a program you would like to record.
+2. Press and hold the Select button.
+3. From the pop-up menu that appears, select ""Schedule Recording.""
+4. Set the values for Antenna Channel, Repeat Date, Start Time, and End Time of the broadcast program to record.
+5. Select ""Save"" to schedule the recording.
+
+If you need to cancel a scheduled recording, you can press ""Select"" on the program and choose the ""Cancel Scheduled Recording"" option from the menu.",,
+49,How can I view and select channels on my favorite lists only?,"To view and select channels on your favorite lists only, you need to press the right directional button on your remote control while on the Live TV Channel List. Then, select ""Favorites"" and choose the desired list among the five favorites lists displayed on the screen. The channels in the selected favorites list will then appear. Only favorites lists that contain registered channels will display channels.",,
+50,How do I configure Sharpness?,"To configure Sharpness, go to the Picture Expert Settings and look for the Sharpness option. Then, adjust the Sharpness setting to your preference.",,
+51,How do I change the menu language option?,"To change the menu language option on the TV, you can go to the Language screen in the settings. Select the desired language from the options available. Note that some languages may not be supported by the Voice Guide feature, but English is always supported. For more information about changing the language settings, refer to the menu.",,
+52,Where do I find sound mode option and how to use it?,"The sound mode option can be found in the settings menu of your TV. To use it, go to Settings -> Sound -> Sound Mode. From there, you can select a favorite sound mode that is suitable for the content type or listening environment. Options may include Standard, Optimized, and Amplify. However, please note that this function may not be supported depending on the model of your TV.",,
+53,Can I select Optimized sound mode?,"No, the text states that the Optimized sound mode may not be supported depending on the model.",,
+54,Can I fix Screen Brightness issues?,"Yes, you can fix screen brightness issues by adjusting the brightness level of the TV, using the Minimum Backlight function, disabling Ambient Light Detection or Power Saving Mode if necessary, and checking connections and settings related to screen brightness in the Picture and Picture Expert Settings.",,
+55,How can I connect Samsung-Smart-Remote to TV?,"To connect the Samsung Smart Remote to the TV, you can follow these steps:
+1. When you turn on the TV for the first time, the Samsung Smart Remote pairs to the TV automatically. If it does not pair automatically, point it at the remote control sensor of the TV, and press and hold the and buttons simultaneously for 3 seconds or more.
+2. The Samsung Smart Remote may not be supported depending on the model or geographical area.
+3. For more information about the Samsung Smart Remote that comes with your specific TV model, refer to the corresponding manual.
+4. You can also connect to the TV via the SmartThings app by starting the app on your mobile device, adding the TV as a device, selecting the model, entering the PIN displayed on the TV screen, and registering the TV with your Samsung account.",,
+56,How to update the TV automatically ?,"To update the TV automatically, ensure it is connected to the internet. Then, go to Settings, Support, Software Update, Auto Update, and use the Select button to turn on the Auto Update function. This will allow the TV to update its software automatically while you are watching it, with the background update being applied the next time the TV is turned on. This function requires an active internet connection.",,
+57,Where do I find accessibility shortcuts functions?,"To find accessibility shortcuts functions, you can press and hold the Volume button on the remote control for 1 second or more. This will display the Accessibility Shortcuts menu which allows you to easily turn on or turn off functions such as Voice Guide, Video Description, High Contrast, Enlarge, and more.",,
+58,How do I establish a wired Internet connection?,"To establish a wired Internet connection, you need to follow these steps:
+
+1. Connect a LAN cable to your TV.
+2. Use a CAT 7 (STP type) shielded twist pair cable for the connection.
+3. Ensure that your network speed is above 10 Mbps.
+4. If the LAN cable is plugged in on both ends and the router is turned on, your TV should automatically access the Internet. If not, try turning the router off and then on.
+5. If you encounter any issues with the wired connection, you can troubleshoot by checking if the LAN cable is properly connected, the router is turned on, and the DNS values in the IP settings are correct.",,
+59,Can I configure Color?,"Yes, you can configure Color in the advanced picture settings.",,
+60,Can I connect to the bluetooth audio devices to the TV?,"Yes, you can connect Bluetooth audio devices to the TV by pairing them using the TV's Bluetooth function.",,
+61,How do I troubleshoot video issues ?,"To troubleshoot video issues on the TV, follow these steps:
+
+1. Start by running the Start Picture Test to determine if the problem is caused by the TV. This will display a high definition picture for you to examine for flaws or faults.
+2. If the color on the TV screen is incorrect or the black and white colors are off, run the Start Picture Test again.
+3. Check the video input connectors to ensure they are connected to the correct external device output connectors.
+4. If the colors on the TV screen are too dark or bright, adjust settings such as backlight, contrast, brightness, sharpness, color, and tint in the Picture Expert Settings.
+5. If there is ghosting or blurring on the screen, use the Auto Motion Plus Settings function to resolve the issue.
+6. If the test picture does not appear or there is noise or distortion, the TV may have a problem, and you should contact Samsung's Call Center for assistance.",,
+62,How to create a Samsung account using a Facebook account?,"To create a Samsung account using a Facebook account, you need to go to Settings, select General, then System Manager, and then Samsung Account. From there, choose Add Account and select Create with Facebook. Follow the instructions on the screen to link your Facebook account to your Samsung account.",,
+63,How do I configure Color?,"To configure Color on your TV screen, go to Settings, then choose Picture Expert Settings. Under Picture Expert Settings, you will find the option to adjust Color.",,
+64, I don't know about Ambient Mode. Can you explain briefly?,"Ambient Mode is a feature on the TV that allows you to set up and enjoy visual information and design while consuming less power. It automatically adjusts brightness based on the surroundings, changing the screen when it gets dark and turning off when it gets even darker. You can activate voice guides and process voice commands in Ambient Mode, but not in the black screen state. You can enter Ambient Mode when the TV is turned off by pressing a button on the remote control. Additionally, in Ambient Mode, you can change settings such as brightness, color tone, auto brightness, and background color or pattern.",,
+65,How to update TV's software through internet?,"To update the TV's software through the internet, follow these steps:
+
+1. Access the TV's Settings menu.
+2. Navigate to Support.
+3. Select Software Update.
+4. Choose Update Now.
+5. Ensure that the TV is connected to an active internet connection.
+6. The TV will search for and download the latest software update.
+7. Follow any on-screen prompts to complete the update process.
+8. Do not turn off the TV's power until the update is complete.
+9. The TV will turn off and on automatically after the software update is finished.
+10. Note that video and audio settings may be reset to their defaults after the update.",,
